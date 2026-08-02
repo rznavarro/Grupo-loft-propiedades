@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grupo Loft — Corredora de Propiedades en Santiago</title>
+<meta name="description" content="Grupo Loft, corredora de propiedades en Las Condes: venta, arriendo, administración y tasación con trato personalizado y acompañamiento en cada etapa.">
 <script src="./support.js"></script>
 </head>
 <body>
@@ -90,14 +92,13 @@
   <!-- SECCIÓN: NAVBAR -->
   <nav class="jpp-navbar" style="position:fixed;top:0;left:0;right:0;z-index:1000;display:flex;align-items:center;justify-content:space-between;padding:1.5rem clamp(1.5rem,6vw,7rem);background:transparent;transition:background .3s cubic-bezier(.4,0,.2,1),padding .3s,border-color .3s;border-bottom:1px solid transparent;">
     <a href="#hero" style="display:flex;align-items:center;gap:.7rem;text-decoration:none;">
-      <img src="assets/jp-photo.jpg" alt="Juan Pablo Pistorio" style="width:38px;height:38px;border-radius:50%;object-fit:cover;border:1px solid rgba(201,168,76,0.5);flex:none;">
-      <span style="font-family:'Cormorant Garamond',serif;font-weight:700;font-size:1.15rem;color:#F5F5F0;letter-spacing:.01em;">Juan&nbsp;Pablo&nbsp;Pistorio</span>
-      <span style="font-family:'Raleway';font-weight:600;font-size:.58rem;letter-spacing:.18em;color:#C9A84C;border:1px solid rgba(201,168,76,0.4);border-radius:3px;padding:.22rem .42rem;">REALTOR®</span>
+      <span style="font-family:'Cormorant Garamond',serif;font-weight:700;font-size:1.15rem;color:#F5F5F0;letter-spacing:.01em;">Grupo&nbsp;Loft</span>
+      <span style="font-family:'Raleway';font-weight:600;font-size:.58rem;letter-spacing:.18em;color:#C9A84C;border:1px solid rgba(201,168,76,0.4);border-radius:3px;padding:.22rem .42rem;">CORREDORA</span>
     </a>
     <div class="jpp-navlinks" style="display:flex;align-items:center;gap:2.6rem;">
       <a href="#hero" style="text-decoration:none;color:#9CA3AF;font-size:.82rem;font-weight:500;letter-spacing:.04em;transition:color .2s;" style-hover="color:#E2C97E;">Inicio</a>
       <a href="#servicios" style="text-decoration:none;color:#9CA3AF;font-size:.82rem;font-weight:500;letter-spacing:.04em;transition:color .2s;" style-hover="color:#E2C97E;">Servicios</a>
-      <a href="#inversiones" style="text-decoration:none;color:#9CA3AF;font-size:.82rem;font-weight:500;letter-spacing:.04em;transition:color .2s;" style-hover="color:#E2C97E;">Inversiones</a>
+      <a href="#inversiones" style="text-decoration:none;color:#9CA3AF;font-size:.82rem;font-weight:500;letter-spacing:.04em;transition:color .2s;" style-hover="color:#E2C97E;">Propiedades</a>
       <a href="#contacto" style="text-decoration:none;color:#9CA3AF;font-size:.82rem;font-weight:500;letter-spacing:.04em;transition:color .2s;" style-hover="color:#E2C97E;">Contacto</a>
     </div>
     <button class="jpp-mobtoggle" onClick="{{ toggleMenu }}" aria-label="Menú" style="display:none;flex-direction:column;gap:5px;background:transparent;border:none;cursor:pointer;padding:6px;">
@@ -110,10 +111,10 @@
   <!-- SECCIÓN: MENU MÓVIL -->
   <div style="position:fixed;top:0;left:0;right:0;z-index:999;background:rgba(8,11,18,0.97);backdrop-filter:blur(20px);border-bottom:1px solid rgba(201,168,76,0.15);padding:5.5rem clamp(1.5rem,6vw,7rem) 2rem;display:flex;flex-direction:column;gap:1.4rem;transform:{{ menuTransform }};transition:transform .5s cubic-bezier(.4,0,.2,1);">
     <a href="#servicios" onClick="{{ closeMenu }}" style="text-decoration:none;color:#F5F5F0;font-family:'Cormorant Garamond',serif;font-size:1.4rem;">Servicios</a>
-    <a href="#inversiones" onClick="{{ closeMenu }}" style="text-decoration:none;color:#F5F5F0;font-family:'Cormorant Garamond',serif;font-size:1.4rem;">Inversiones</a>
+    <a href="#inversiones" onClick="{{ closeMenu }}" style="text-decoration:none;color:#F5F5F0;font-family:'Cormorant Garamond',serif;font-size:1.4rem;">Propiedades</a>
     <a href="#proceso" onClick="{{ closeMenu }}" style="text-decoration:none;color:#F5F5F0;font-family:'Cormorant Garamond',serif;font-size:1.4rem;">Proceso</a>
     <a href="#contacto" onClick="{{ closeMenu }}" style="text-decoration:none;color:#F5F5F0;font-family:'Cormorant Garamond',serif;font-size:1.4rem;">Contacto</a>
-    <a href="https://calendly.com/juanpablorealtor/45min" target="_blank" rel="noopener" style="margin-top:.6rem;text-decoration:none;text-align:center;color:#080B12;background:#C9A84C;font-weight:600;letter-spacing:.1em;text-transform:uppercase;font-size:.78rem;border-radius:6px;padding:.95rem;">Agendar Zoom Gratuito</a>
+    <a href="https://wa.me/56991277411" target="_blank" rel="noopener" style="margin-top:.6rem;text-decoration:none;text-align:center;color:#080B12;background:#C9A84C;font-weight:600;letter-spacing:.1em;text-transform:uppercase;font-size:.78rem;border-radius:6px;padding:.95rem;">Escríbenos por WhatsApp</a>
   </div>
 
   <!-- SECCIÓN: HERO -->
@@ -126,14 +127,14 @@
       <div style="max-width:880px;">
         <div class="hero-tag" style="display:inline-flex;align-items:center;gap:.6rem;margin-bottom:1.8rem;">
           <span style="display:block;width:32px;height:1px;background:#C9A84C;"></span>
-          <span style="font-size:.72rem;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:#E2C97E;">Realtor® Licenciado en Florida</span>
+          <span style="font-size:.72rem;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:#E2C97E;">Corredora de Propiedades · Las Condes</span>
         </div>
         <h1 class="hero-title" style="font-family:'Cormorant Garamond',serif;font-weight:700;font-size:clamp(2.6rem,7vw,6rem);line-height:1.05;letter-spacing:-0.02em;color:#F5F5F0;margin:0 0 1.6rem;text-wrap:balance;">
-          <span style="display:inline-block;">Inversiones</span> <span style="display:inline-block;">en</span> <span style="display:inline-block;">Real</span> <span style="display:inline-block;">Estate</span> <span style="display:inline-block;">que</span> <span style="display:inline-block;color:#E2C97E;font-style:italic;font-weight:600;">protegen</span> <span style="display:inline-block;">y</span> <span style="display:inline-block;color:#E2C97E;font-style:italic;font-weight:600;">multiplican</span> <span style="display:inline-block;">tu</span> <span style="display:inline-block;">capital</span>
+          <span style="display:inline-block;">Corretaje</span> <span style="display:inline-block;">de</span> <span style="display:inline-block;">propiedades</span> <span style="display:inline-block;">que</span> <span style="display:inline-block;color:#E2C97E;font-style:italic;font-weight:600;">simplifica</span> <span style="display:inline-block;">y</span> <span style="display:inline-block;color:#E2C97E;font-style:italic;font-weight:600;">acelera</span> <span style="display:inline-block;">tu</span> <span style="display:inline-block;">decisión</span> <span style="display:inline-block;">inmobiliaria</span>
         </h1>
-        <p class="hero-subtitle" style="font-size:clamp(1.02rem,1.5vw,1.2rem);line-height:1.7;color:#C7CBD3;max-width:560px;margin:0 0 2.6rem;font-weight:300;">Acompaño a inversores latinoamericanos a encontrar las mejores oportunidades inmobiliarias en Florida.</p>
+        <p class="hero-subtitle" style="font-size:clamp(1.02rem,1.5vw,1.2rem);line-height:1.7;color:#C7CBD3;max-width:560px;margin:0 0 2.6rem;font-weight:300;">Te acompañamos en cada etapa de la compra, venta o arriendo de tu propiedad en Santiago, con atención cercana y resultados comprobados.</p>
         <div class="hero-ctas" style="display:flex;flex-wrap:wrap;gap:1rem;">
-          <a href="https://calendly.com/juanpablorealtor/45min" target="_blank" rel="noopener" style="text-decoration:none;display:inline-flex;align-items:center;gap:.6rem;background:#C9A84C;color:#080B12;font-weight:600;letter-spacing:.08em;text-transform:uppercase;font-size:.8rem;border-radius:7px;padding:1.05rem 1.9rem;transition:background .3s,box-shadow .3s,transform .3s;box-shadow:0 0 30px rgba(201,168,76,0.18);" style-hover="background:#E2C97E;box-shadow:0 0 40px rgba(201,168,76,0.4);transform:translateY(-2px);">Agendar Zoom Gratuito</a>
+          <a href="https://wa.me/56991277411" target="_blank" rel="noopener" style="text-decoration:none;display:inline-flex;align-items:center;gap:.6rem;background:#C9A84C;color:#080B12;font-weight:600;letter-spacing:.08em;text-transform:uppercase;font-size:.8rem;border-radius:7px;padding:1.05rem 1.9rem;transition:background .3s,box-shadow .3s,transform .3s;box-shadow:0 0 30px rgba(201,168,76,0.18);" style-hover="background:#E2C97E;box-shadow:0 0 40px rgba(201,168,76,0.4);transform:translateY(-2px);">Escríbenos por WhatsApp</a>
           <a href="#servicios" style="text-decoration:none;display:inline-flex;align-items:center;gap:.6rem;color:#F5F5F0;font-weight:600;letter-spacing:.08em;text-transform:uppercase;font-size:.8rem;border:1px solid rgba(201,168,76,0.4);border-radius:7px;padding:1.05rem 1.9rem;transition:background .3s,border-color .3s;" style-hover="background:rgba(201,168,76,0.08);border-color:rgba(201,168,76,0.7);">Ver Servicios</a>
         </div>
       </div>
@@ -151,11 +152,11 @@
             Servicios
             <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0 L14.2 9.8 L24 12 L14.2 14.2 L12 24 L9.8 14.2 L0 12 L9.8 9.8 Z"></path></svg>
           </div>
-          <h2 style="font-family:'Cormorant Garamond',serif;font-weight:700;font-size:clamp(2rem,4vw,3.5rem);line-height:1.1;letter-spacing:-0.02em;color:#F5F5F0;margin:0 0 1.6rem;">¿En qué puedo ayudarte?</h2>
+          <h2 style="font-family:'Cormorant Garamond',serif;font-weight:700;font-size:clamp(2rem,4vw,3.5rem);line-height:1.1;letter-spacing:-0.02em;color:#F5F5F0;margin:0 0 1.6rem;">¿En qué podemos ayudarte?</h2>
           <div class="servicios-line" style="height:1px;background:linear-gradient(90deg,#C9A84C,rgba(201,168,76,0.2));"></div>
         </div>
-        <a class="liquid-glass" href="https://calendly.com/juanpablorealtor/45min" target="_blank" rel="noopener" style="text-decoration:none;display:inline-flex;align-items:center;gap:.6rem;border-radius:999px;padding:.95rem 1.7rem;color:#F5F5F0;font-size:.76rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;white-space:nowrap;">
-          Agendar Zoom
+        <a class="liquid-glass" href="https://wa.me/56991277411" target="_blank" rel="noopener" style="text-decoration:none;display:inline-flex;align-items:center;gap:.6rem;border-radius:999px;padding:.95rem 1.7rem;color:#F5F5F0;font-size:.76rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;white-space:nowrap;">
+          Escríbenos
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#E2C97E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"></path><path d="M8 7h9v9"></path></svg>
         </a>
       </div>
@@ -163,36 +164,36 @@
 
         <!-- Card 1 — featured -->
         <article class="svc-card svc-featured liquid-glass noise-overlay" style="grid-row:1 / 3;position:relative;border-radius:20px;min-height:580px;display:flex;">
-          <img class="svc-bg" loading="lazy" src="assets/svc-inversion.jpg" alt="Mansión frente al mar en Florida" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">
+          <img class="svc-bg" loading="lazy" src="assets/svc-inversion.jpg" alt="Casa en venta en Santiago" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">
           <div class="svc-overlay" style="position:absolute;inset:0;background:linear-gradient(to top,rgba(8,11,18,0.95) 0%,rgba(8,11,18,0.5) 50%,rgba(8,11,18,0.2) 100%);"></div>
-          <div style="position:absolute;top:2rem;left:2.6rem;z-index:2;display:flex;align-items:center;gap:.5rem;color:rgba(245,245,240,0.75);font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:500;"><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0 L14.2 9.8 L24 12 L14.2 14.2 L12 24 L9.8 14.2 L0 12 L9.8 9.8 Z"></path></svg>01 — Inversión<svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0 L14.2 9.8 L24 12 L14.2 14.2 L12 24 L9.8 14.2 L0 12 L9.8 9.8 Z"></path></svg></div>
+          <div style="position:absolute;top:2rem;left:2.6rem;z-index:2;display:flex;align-items:center;gap:.5rem;color:rgba(245,245,240,0.75);font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:500;"><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0 L14.2 9.8 L24 12 L14.2 14.2 L12 24 L9.8 14.2 L0 12 L9.8 9.8 Z"></path></svg>01 — Venta<svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0 L14.2 9.8 L24 12 L14.2 14.2 L12 24 L9.8 14.2 L0 12 L9.8 9.8 Z"></path></svg></div>
           <div style="position:relative;z-index:2;margin-top:auto;padding:2.6rem;">
-            <h3 style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:clamp(1.5rem,2.4vw,2rem);color:#F5F5F0;margin:0 0 .8rem;">Inversión Estratégica</h3>
-            <p style="font-size:1rem;line-height:1.75;color:#9CA3AF;margin:0;font-weight:300;max-width:440px;">Identifico propiedades con alto potencial de retorno para tu perfil de inversor. Rentabilidad, plusvalía y flujo de caja.</p>
+            <h3 style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:clamp(1.5rem,2.4vw,2rem);color:#F5F5F0;margin:0 0 .8rem;">Venta de Propiedades</h3>
+            <p style="font-size:1rem;line-height:1.75;color:#9CA3AF;margin:0;font-weight:300;max-width:440px;">Vendemos tu propiedad al mejor precio posible, con una estrategia de difusión profesional y acompañamiento en cada etapa hasta el cierre.</p>
             <div class="svc-cta" style="margin-top:1.3rem;font-size:.82rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#E2C97E;">Saber más <span class="svc-cta-arrow">→</span></div>
           </div>
         </article>
 
         <!-- Card 2 -->
         <article class="svc-card svc-small liquid-glass noise-overlay" style="position:relative;border-radius:20px;min-height:280px;display:flex;">
-          <img class="svc-bg" loading="lazy" src="assets/svc-compra.jpg" alt="Sala de estar de lujo frente al mar" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">
+          <img class="svc-bg" loading="lazy" src="assets/svc-compra.jpg" alt="Departamento en arriendo en Santiago" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">
           <div class="svc-overlay" style="position:absolute;inset:0;background:linear-gradient(to top,rgba(8,11,18,0.95) 0%,rgba(8,11,18,0.5) 50%,rgba(8,11,18,0.2) 100%);"></div>
-          <div style="position:absolute;top:1.6rem;left:2rem;z-index:2;display:flex;align-items:center;gap:.5rem;color:rgba(245,245,240,0.75);font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:500;"><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0 L14.2 9.8 L24 12 L14.2 14.2 L12 24 L9.8 14.2 L0 12 L9.8 9.8 Z"></path></svg>02 — Compra<svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0 L14.2 9.8 L24 12 L14.2 14.2 L12 24 L9.8 14.2 L0 12 L9.8 9.8 Z"></path></svg></div>
+          <div style="position:absolute;top:1.6rem;left:2rem;z-index:2;display:flex;align-items:center;gap:.5rem;color:rgba(245,245,240,0.75);font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:500;"><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0 L14.2 9.8 L24 12 L14.2 14.2 L12 24 L9.8 14.2 L0 12 L9.8 9.8 Z"></path></svg>02 — Arriendo<svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0 L14.2 9.8 L24 12 L14.2 14.2 L12 24 L9.8 14.2 L0 12 L9.8 9.8 Z"></path></svg></div>
           <div style="position:relative;z-index:2;margin-top:auto;padding:2rem;">
-            <h3 style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:1.4rem;color:#F5F5F0;margin:0 0 .6rem;">Compra en Florida</h3>
-            <p style="font-size:.94rem;line-height:1.7;color:#9CA3AF;margin:0;font-weight:300;max-width:380px;">Te guío en todo el proceso de compra, desde la búsqueda hasta el cierre. Sin complicaciones, sin barreras de idioma.</p>
+            <h3 style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:1.4rem;color:#F5F5F0;margin:0 0 .6rem;">Arriendo de Propiedades</h3>
+            <p style="font-size:.94rem;line-height:1.7;color:#9CA3AF;margin:0;font-weight:300;max-width:380px;">Encontramos al arrendatario ideal o la propiedad perfecta para arrendar, con contratos claros y gestión ágil de todo el proceso.</p>
             <div class="svc-cta" style="margin-top:1.1rem;font-size:.82rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#E2C97E;">Saber más <span class="svc-cta-arrow">→</span></div>
           </div>
         </article>
 
         <!-- Card 3 -->
         <article class="svc-card svc-small liquid-glass noise-overlay" style="position:relative;border-radius:20px;min-height:280px;display:flex;">
-          <img class="svc-bg" loading="lazy" src="assets/svc-asesoria.jpg" alt="Terraza con piscina infinita" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">
+          <img class="svc-bg" loading="lazy" src="assets/svc-asesoria.jpg" alt="Administración y tasación de propiedades" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">
           <div class="svc-overlay" style="position:absolute;inset:0;background:linear-gradient(to top,rgba(8,11,18,0.95) 0%,rgba(8,11,18,0.5) 50%,rgba(8,11,18,0.2) 100%);"></div>
-          <div style="position:absolute;top:1.6rem;left:2rem;z-index:2;display:flex;align-items:center;gap:.5rem;color:rgba(245,245,240,0.75);font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:500;"><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0 L14.2 9.8 L24 12 L14.2 14.2 L12 24 L9.8 14.2 L0 12 L9.8 9.8 Z"></path></svg>03 — Asesoría<svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0 L14.2 9.8 L24 12 L14.2 14.2 L12 24 L9.8 14.2 L0 12 L9.8 9.8 Z"></path></svg></div>
+          <div style="position:absolute;top:1.6rem;left:2rem;z-index:2;display:flex;align-items:center;gap:.5rem;color:rgba(245,245,240,0.75);font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:500;"><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0 L14.2 9.8 L24 12 L14.2 14.2 L12 24 L9.8 14.2 L0 12 L9.8 9.8 Z"></path></svg>03 — Administración<svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0 L14.2 9.8 L24 12 L14.2 14.2 L12 24 L9.8 14.2 L0 12 L9.8 9.8 Z"></path></svg></div>
           <div style="position:relative;z-index:2;margin-top:auto;padding:2rem;">
-            <h3 style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:1.4rem;color:#F5F5F0;margin:0 0 .6rem;">Asesoría para Residentes</h3>
-            <p style="font-size:.94rem;line-height:1.7;color:#9CA3AF;margin:0;font-weight:300;max-width:380px;">¿Buscas alquilar o comprar en Florida? Te conecto con las mejores opciones según tu presupuesto y necesidades.</p>
+            <h3 style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:1.4rem;color:#F5F5F0;margin:0 0 .6rem;">Administración y Tasación</h3>
+            <p style="font-size:.94rem;line-height:1.7;color:#9CA3AF;margin:0;font-weight:300;max-width:380px;">Administramos tu propiedad en arriendo y realizamos tasaciones profesionales para que tomes decisiones informadas con respaldo real.</p>
             <div class="svc-cta" style="margin-top:1.1rem;font-size:.82rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#E2C97E;">Saber más <span class="svc-cta-arrow">→</span></div>
           </div>
         </article>
@@ -202,79 +203,79 @@
   </section>
 
   <!-- SECCIÓN: GALERÍA DE PROPIEDADES -->
-  <section id="inversiones" data-screen-label="Inversiones" class="gallery-section" style="overflow:hidden;">
+  <section id="inversiones" data-screen-label="Propiedades" class="gallery-section" style="overflow:hidden;">
     <div style="max-width:1280px;margin:0 auto;padding:clamp(5rem,10vw,9rem) clamp(1.5rem,6vw,7rem) 2rem;">
-      <div style="pointer-events:none;color:#fff;font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:700;font-size:clamp(2.6rem,8vw,7rem);letter-spacing:-0.02em;white-space:nowrap;mix-blend-mode:exclusion;line-height:1;text-align:center;">Florida</div>
+      <div style="pointer-events:none;color:#fff;font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:700;font-size:clamp(2.6rem,8vw,7rem);letter-spacing:-0.02em;white-space:nowrap;mix-blend-mode:exclusion;line-height:1;text-align:center;">Santiago</div>
     </div>
     <div style="position:relative;padding-bottom:2rem;">
       <div class="jpp-hscroll-track" style="padding-left:clamp(1.5rem,6vw,7rem);">
         <div class="hsc-slide">
-          <img loading="lazy" src="assets/mansion-entrance.jpg" alt="Gran entrada de mansión">
+          <img loading="lazy" src="assets/mansion-entrance.jpg" alt="Entrada de casa en Las Condes">
           <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(8,11,18,0.85),transparent 55%);pointer-events:none;"></div>
-          <div style="position:absolute;left:1.4rem;bottom:1.4rem;pointer-events:none;"><div style="font-family:'Cormorant Garamond',serif;color:#F5F5F0;font-size:1.15rem;font-weight:600;">Miami Waterfront Estate</div><div style="color:#C9A84C;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;margin-top:.3rem;">Inversión de alto rendimiento · Florida</div></div>
+          <div style="position:absolute;left:1.4rem;bottom:1.4rem;pointer-events:none;"><div style="font-family:'Cormorant Garamond',serif;color:#F5F5F0;font-size:1.15rem;font-weight:600;">Casa en Las Condes</div><div style="color:#C9A84C;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;margin-top:.3rem;">Venta · Las Condes</div></div>
         </div>
         <div class="hsc-slide">
-          <img loading="lazy" src="assets/pool-terrace.jpg" alt="Terraza con infinity pool">
+          <img loading="lazy" src="assets/pool-terrace.jpg" alt="Terraza con piscina en Vitacura">
           <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(8,11,18,0.85),transparent 55%);pointer-events:none;"></div>
-          <div style="position:absolute;left:1.4rem;bottom:1.4rem;pointer-events:none;"><div style="font-family:'Cormorant Garamond',serif;color:#F5F5F0;font-size:1.15rem;font-weight:600;">Coastal Infinity Residence</div><div style="color:#C9A84C;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;margin-top:.3rem;">Inversión de alto rendimiento · Florida</div></div>
+          <div style="position:absolute;left:1.4rem;bottom:1.4rem;pointer-events:none;"><div style="font-family:'Cormorant Garamond',serif;color:#F5F5F0;font-size:1.15rem;font-weight:600;">Depto con Terraza y Piscina</div><div style="color:#C9A84C;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;margin-top:.3rem;">Arriendo · Vitacura</div></div>
         </div>
         <div class="hsc-slide">
-          <img loading="lazy" src="assets/living-room.jpg" alt="Sala de estar oceanfront">
+          <img loading="lazy" src="assets/living-room.jpg" alt="Living amplio y luminoso en Providencia">
           <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(8,11,18,0.85),transparent 55%);pointer-events:none;"></div>
-          <div style="position:absolute;left:1.4rem;bottom:1.4rem;pointer-events:none;"><div style="font-family:'Cormorant Garamond',serif;color:#F5F5F0;font-size:1.15rem;font-weight:600;">Oceanfront Penthouse</div><div style="color:#C9A84C;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;margin-top:.3rem;">Inversión de alto rendimiento · Florida</div></div>
+          <div style="position:absolute;left:1.4rem;bottom:1.4rem;pointer-events:none;"><div style="font-family:'Cormorant Garamond',serif;color:#F5F5F0;font-size:1.15rem;font-weight:600;">Living Amplio y Luminoso</div><div style="color:#C9A84C;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;margin-top:.3rem;">Venta · Providencia</div></div>
         </div>
         <div class="hsc-slide">
-          <img loading="lazy" src="assets/master-bedroom.jpg" alt="Master bedroom vista al mar">
+          <img loading="lazy" src="assets/master-bedroom.jpg" alt="Suite principal en Lo Barnechea">
           <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(8,11,18,0.85),transparent 55%);pointer-events:none;"></div>
-          <div style="position:absolute;left:1.4rem;bottom:1.4rem;pointer-events:none;"><div style="font-family:'Cormorant Garamond',serif;color:#F5F5F0;font-size:1.15rem;font-weight:600;">Seaview Master Suite</div><div style="color:#C9A84C;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;margin-top:.3rem;">Inversión de alto rendimiento · Florida</div></div>
+          <div style="position:absolute;left:1.4rem;bottom:1.4rem;pointer-events:none;"><div style="font-family:'Cormorant Garamond',serif;color:#F5F5F0;font-size:1.15rem;font-weight:600;">Suite Principal</div><div style="color:#C9A84C;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;margin-top:.3rem;">Venta · Lo Barnechea</div></div>
         </div>
         <div class="hsc-slide">
-          <img loading="lazy" src="assets/aerial-drone.jpg" alt="Vista aérea drone">
+          <img loading="lazy" src="assets/aerial-drone.jpg" alt="Vista aérea de sector en Santiago Oriente">
           <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(8,11,18,0.85),transparent 55%);pointer-events:none;"></div>
-          <div style="position:absolute;left:1.4rem;bottom:1.4rem;pointer-events:none;"><div style="font-family:'Cormorant Garamond',serif;color:#F5F5F0;font-size:1.15rem;font-weight:600;">Cliffside Compound</div><div style="color:#C9A84C;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;margin-top:.3rem;">Inversión de alto rendimiento · Florida</div></div>
+          <div style="position:absolute;left:1.4rem;bottom:1.4rem;pointer-events:none;"><div style="font-family:'Cormorant Garamond',serif;color:#F5F5F0;font-size:1.15rem;font-weight:600;">Vista Aérea del Sector</div><div style="color:#C9A84C;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;margin-top:.3rem;">Proyecto · Santiago Oriente</div></div>
         </div>
         <div class="hsc-slide">
-          <img loading="lazy" src="assets/grand-sunset-villa.jpg" alt="Mansión exterior golden hour">
+          <img loading="lazy" src="assets/grand-sunset-villa.jpg" alt="Casa al atardecer en Ñuñoa">
           <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(8,11,18,0.85),transparent 55%);pointer-events:none;"></div>
-          <div style="position:absolute;left:1.4rem;bottom:1.4rem;pointer-events:none;"><div style="font-family:'Cormorant Garamond',serif;color:#F5F5F0;font-size:1.15rem;font-weight:600;">Grand Sunset Villa</div><div style="color:#C9A84C;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;margin-top:.3rem;">Inversión de alto rendimiento · Florida</div></div>
+          <div style="position:absolute;left:1.4rem;bottom:1.4rem;pointer-events:none;"><div style="font-family:'Cormorant Garamond',serif;color:#F5F5F0;font-size:1.15rem;font-weight:600;">Casa con Vista al Atardecer</div><div style="color:#C9A84C;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;margin-top:.3rem;">Venta · Ñuñoa</div></div>
         </div>
       </div>
     </div>
     <div style="max-width:1280px;margin:0 auto;padding:2.5rem clamp(1.5rem,6vw,7rem) clamp(5rem,10vw,9rem);">
       <div class="reveal" style="max-width:680px;">
-        <h2 style="font-family:'Cormorant Garamond',serif;font-weight:700;font-size:clamp(2rem,4.2vw,4.5rem);line-height:1.1;letter-spacing:-0.02em;color:#F5F5F0;margin:0;white-space:nowrap;width:100%;display:block;">El tipo de activos que puedo conseguirte</h2>
+        <h2 style="font-family:'Cormorant Garamond',serif;font-weight:700;font-size:clamp(2rem,4.2vw,4.5rem);line-height:1.1;letter-spacing:-0.02em;color:#F5F5F0;margin:0;white-space:nowrap;width:100%;display:block;">El tipo de propiedades que conseguimos para ti</h2>
       </div>
     </div>
   </section>
 
-  <!-- SECCIÓN: POR QUÉ FLORIDA -->
-  <section data-screen-label="Por que Florida" style="padding:clamp(5rem,10vw,9rem) clamp(1.5rem,6vw,7rem);background:#0D1220;border-top:1px solid rgba(201,168,76,0.1);border-bottom:1px solid rgba(201,168,76,0.1);overflow:hidden;">
+  <!-- SECCIÓN: POR QUÉ GRUPO LOFT -->
+  <section data-screen-label="Por que elegirnos" style="padding:clamp(5rem,10vw,9rem) clamp(1.5rem,6vw,7rem);background:#0D1220;border-top:1px solid rgba(201,168,76,0.1);border-bottom:1px solid rgba(201,168,76,0.1);overflow:hidden;">
     <div style="max-width:1280px;margin:0 auto;">
       <div class="reveal" style="text-align:center;max-width:680px;margin:0 auto;">
-        <div style="font-size:.72rem;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:#E2C97E;margin-bottom:1.2rem;">¿Por qué Florida?</div>
-        <h2 style="font-family:'Cormorant Garamond',serif;font-weight:700;font-size:clamp(2rem,4vw,3.5rem);line-height:1.1;letter-spacing:-0.02em;color:#F5F5F0;margin:0;text-wrap:balance;">El mercado inmobiliario más dinámico de Estados Unidos</h2>
+        <div style="font-size:.72rem;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:#E2C97E;margin-bottom:1.2rem;">¿Por qué elegirnos?</div>
+        <h2 style="font-family:'Cormorant Garamond',serif;font-weight:700;font-size:clamp(2rem,4vw,3.5rem);line-height:1.1;letter-spacing:-0.02em;color:#F5F5F0;margin:0;text-wrap:balance;">Cercanía, experiencia y resultados en cada operación</h2>
       </div>
 
       <div class="jpp-ring-scene" style="display:grid;align-content:center;overflow:hidden;perspective:35em;-webkit-mask:linear-gradient(90deg,#0000,#000 16%,#000 84%,#0000);mask:linear-gradient(90deg,#0000,#000 16%,#000 84%,#0000);min-height:clamp(380px,46vw,540px);margin:clamp(2.5rem,5vw,4rem) 0;">
         <div class="jpp-ring" style="--n:10;place-self:center;display:grid;transform-style:preserve-3d;animation:jppRingSpin 40s linear infinite;">
-          <img class="jpp-ring-card" loading="lazy" src="assets/hero-exterior.jpg" alt="Mansión frente al mar en Florida" style="--i:0;--w:16em;--ba:calc(1turn / var(--n));grid-area:1 / 1;width:var(--w);aspect-ratio:7 / 10;object-fit:cover;border-radius:1.2em;backface-visibility:hidden;border:1px solid rgba(201,168,76,0.25);box-shadow:0 20px 50px rgba(0,0,0,0.5);transform:rotatey(calc(var(--i) * var(--ba))) translatez(calc(-1 * (.5 * var(--w) + .5em) / tan(.5 * var(--ba))));">
+          <img class="jpp-ring-card" loading="lazy" src="assets/hero-exterior.jpg" alt="Propiedad exclusiva en Santiago" style="--i:0;--w:16em;--ba:calc(1turn / var(--n));grid-area:1 / 1;width:var(--w);aspect-ratio:7 / 10;object-fit:cover;border-radius:1.2em;backface-visibility:hidden;border:1px solid rgba(201,168,76,0.25);box-shadow:0 20px 50px rgba(0,0,0,0.5);transform:rotatey(calc(var(--i) * var(--ba))) translatez(calc(-1 * (.5 * var(--w) + .5em) / tan(.5 * var(--ba))));">
           <img class="jpp-ring-card" loading="lazy" src="assets/mansion-entrance.jpg" alt="Gran entrada de mansión" style="--i:1;--w:16em;--ba:calc(1turn / var(--n));grid-area:1 / 1;width:var(--w);aspect-ratio:7 / 10;object-fit:cover;border-radius:1.2em;backface-visibility:hidden;border:1px solid rgba(201,168,76,0.25);box-shadow:0 20px 50px rgba(0,0,0,0.5);transform:rotatey(calc(var(--i) * var(--ba))) translatez(calc(-1 * (.5 * var(--w) + .5em) / tan(.5 * var(--ba))));">
           <img class="jpp-ring-card" loading="lazy" src="assets/pool-terrace.jpg" alt="Terraza con piscina infinita" style="--i:2;--w:16em;--ba:calc(1turn / var(--n));grid-area:1 / 1;width:var(--w);aspect-ratio:7 / 10;object-fit:cover;border-radius:1.2em;backface-visibility:hidden;border:1px solid rgba(201,168,76,0.25);box-shadow:0 20px 50px rgba(0,0,0,0.5);transform:rotatey(calc(var(--i) * var(--ba))) translatez(calc(-1 * (.5 * var(--w) + .5em) / tan(.5 * var(--ba))));">
           <img class="jpp-ring-card" loading="lazy" src="assets/living-room.jpg" alt="Sala de estar oceanfront" style="--i:3;--w:16em;--ba:calc(1turn / var(--n));grid-area:1 / 1;width:var(--w);aspect-ratio:7 / 10;object-fit:cover;border-radius:1.2em;backface-visibility:hidden;border:1px solid rgba(201,168,76,0.25);box-shadow:0 20px 50px rgba(0,0,0,0.5);transform:rotatey(calc(var(--i) * var(--ba))) translatez(calc(-1 * (.5 * var(--w) + .5em) / tan(.5 * var(--ba))));">
           <img class="jpp-ring-card" loading="lazy" src="assets/master-bedroom.jpg" alt="Master bedroom vista al mar" style="--i:4;--w:16em;--ba:calc(1turn / var(--n));grid-area:1 / 1;width:var(--w);aspect-ratio:7 / 10;object-fit:cover;border-radius:1.2em;backface-visibility:hidden;border:1px solid rgba(201,168,76,0.25);box-shadow:0 20px 50px rgba(0,0,0,0.5);transform:rotatey(calc(var(--i) * var(--ba))) translatez(calc(-1 * (.5 * var(--w) + .5em) / tan(.5 * var(--ba))));">
-          <img class="jpp-ring-card" loading="lazy" src="assets/aerial-drone.jpg" alt="Vista aérea de propiedad en Florida" style="--i:5;--w:16em;--ba:calc(1turn / var(--n));grid-area:1 / 1;width:var(--w);aspect-ratio:7 / 10;object-fit:cover;border-radius:1.2em;backface-visibility:hidden;border:1px solid rgba(201,168,76,0.25);box-shadow:0 20px 50px rgba(0,0,0,0.5);transform:rotatey(calc(var(--i) * var(--ba))) translatez(calc(-1 * (.5 * var(--w) + .5em) / tan(.5 * var(--ba))));">
-          <img class="jpp-ring-card" loading="lazy" src="assets/grand-sunset-villa.jpg" alt="Villa al atardecer en Florida" style="--i:6;--w:16em;--ba:calc(1turn / var(--n));grid-area:1 / 1;width:var(--w);aspect-ratio:7 / 10;object-fit:cover;border-radius:1.2em;backface-visibility:hidden;border:1px solid rgba(201,168,76,0.25);box-shadow:0 20px 50px rgba(0,0,0,0.5);transform:rotatey(calc(var(--i) * var(--ba))) translatez(calc(-1 * (.5 * var(--w) + .5em) / tan(.5 * var(--ba))));">
-          <img class="jpp-ring-card" loading="lazy" src="assets/svc-inversion.jpg" alt="Mansión de inversión frente al mar" style="--i:7;--w:16em;--ba:calc(1turn / var(--n));grid-area:1 / 1;width:var(--w);aspect-ratio:7 / 10;object-fit:cover;border-radius:1.2em;backface-visibility:hidden;border:1px solid rgba(201,168,76,0.25);box-shadow:0 20px 50px rgba(0,0,0,0.5);transform:rotatey(calc(var(--i) * var(--ba))) translatez(calc(-1 * (.5 * var(--w) + .5em) / tan(.5 * var(--ba))));">
-          <img class="jpp-ring-card" loading="lazy" src="assets/svc-compra.jpg" alt="Interior de lujo en Florida" style="--i:8;--w:16em;--ba:calc(1turn / var(--n));grid-area:1 / 1;width:var(--w);aspect-ratio:7 / 10;object-fit:cover;border-radius:1.2em;backface-visibility:hidden;border:1px solid rgba(201,168,76,0.25);box-shadow:0 20px 50px rgba(0,0,0,0.5);transform:rotatey(calc(var(--i) * var(--ba))) translatez(calc(-1 * (.5 * var(--w) + .5em) / tan(.5 * var(--ba))));">
-          <img class="jpp-ring-card" loading="lazy" src="assets/svc-asesoria.jpg" alt="Terraza de lujo en Florida" style="--i:9;--w:16em;--ba:calc(1turn / var(--n));grid-area:1 / 1;width:var(--w);aspect-ratio:7 / 10;object-fit:cover;border-radius:1.2em;backface-visibility:hidden;border:1px solid rgba(201,168,76,0.25);box-shadow:0 20px 50px rgba(0,0,0,0.5);transform:rotatey(calc(var(--i) * var(--ba))) translatez(calc(-1 * (.5 * var(--w) + .5em) / tan(.5 * var(--ba))));">
+          <img class="jpp-ring-card" loading="lazy" src="assets/aerial-drone.jpg" alt="Vista aérea de propiedad en Santiago" style="--i:5;--w:16em;--ba:calc(1turn / var(--n));grid-area:1 / 1;width:var(--w);aspect-ratio:7 / 10;object-fit:cover;border-radius:1.2em;backface-visibility:hidden;border:1px solid rgba(201,168,76,0.25);box-shadow:0 20px 50px rgba(0,0,0,0.5);transform:rotatey(calc(var(--i) * var(--ba))) translatez(calc(-1 * (.5 * var(--w) + .5em) / tan(.5 * var(--ba))));">
+          <img class="jpp-ring-card" loading="lazy" src="assets/grand-sunset-villa.jpg" alt="Casa al atardecer en Santiago" style="--i:6;--w:16em;--ba:calc(1turn / var(--n));grid-area:1 / 1;width:var(--w);aspect-ratio:7 / 10;object-fit:cover;border-radius:1.2em;backface-visibility:hidden;border:1px solid rgba(201,168,76,0.25);box-shadow:0 20px 50px rgba(0,0,0,0.5);transform:rotatey(calc(var(--i) * var(--ba))) translatez(calc(-1 * (.5 * var(--w) + .5em) / tan(.5 * var(--ba))));">
+          <img class="jpp-ring-card" loading="lazy" src="assets/svc-inversion.jpg" alt="Propiedad en venta en Santiago" style="--i:7;--w:16em;--ba:calc(1turn / var(--n));grid-area:1 / 1;width:var(--w);aspect-ratio:7 / 10;object-fit:cover;border-radius:1.2em;backface-visibility:hidden;border:1px solid rgba(201,168,76,0.25);box-shadow:0 20px 50px rgba(0,0,0,0.5);transform:rotatey(calc(var(--i) * var(--ba))) translatez(calc(-1 * (.5 * var(--w) + .5em) / tan(.5 * var(--ba))));">
+          <img class="jpp-ring-card" loading="lazy" src="assets/svc-compra.jpg" alt="Interior de propiedad en Santiago" style="--i:8;--w:16em;--ba:calc(1turn / var(--n));grid-area:1 / 1;width:var(--w);aspect-ratio:7 / 10;object-fit:cover;border-radius:1.2em;backface-visibility:hidden;border:1px solid rgba(201,168,76,0.25);box-shadow:0 20px 50px rgba(0,0,0,0.5);transform:rotatey(calc(var(--i) * var(--ba))) translatez(calc(-1 * (.5 * var(--w) + .5em) / tan(.5 * var(--ba))));">
+          <img class="jpp-ring-card" loading="lazy" src="assets/svc-asesoria.jpg" alt="Terraza de propiedad en Santiago" style="--i:9;--w:16em;--ba:calc(1turn / var(--n));grid-area:1 / 1;width:var(--w);aspect-ratio:7 / 10;object-fit:cover;border-radius:1.2em;backface-visibility:hidden;border:1px solid rgba(201,168,76,0.25);box-shadow:0 20px 50px rgba(0,0,0,0.5);transform:rotatey(calc(var(--i) * var(--ba))) translatez(calc(-1 * (.5 * var(--w) + .5em) / tan(.5 * var(--ba))));">
         </div>
       </div>
 
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:2.2rem 2rem;max-width:1080px;margin:0 auto;">
-        <div class="reveal" style="padding-top:1.2rem;border-top:1px solid rgba(201,168,76,0.2);"><div style="font-family:'Cormorant Garamond',serif;color:#F5F5F0;font-size:1.18rem;font-weight:600;margin-bottom:.6rem;">Sin impuesto estatal sobre la renta</div><p style="font-size:.92rem;line-height:1.7;color:#9CA3AF;margin:0;font-weight:300;">Florida es uno de los pocos estados sin este impuesto.</p></div>
-        <div class="reveal" style="padding-top:1.2rem;border-top:1px solid rgba(201,168,76,0.2);"><div style="font-family:'Cormorant Garamond',serif;color:#F5F5F0;font-size:1.18rem;font-weight:600;margin-bottom:.6rem;">Crecimiento poblacional sostenido</div><p style="font-size:.92rem;line-height:1.7;color:#9CA3AF;margin:0;font-weight:300;">Más de 1,000 personas se mudan a Florida cada día.</p></div>
-        <div class="reveal" style="padding-top:1.2rem;border-top:1px solid rgba(201,168,76,0.2);"><div style="font-family:'Cormorant Garamond',serif;color:#F5F5F0;font-size:1.18rem;font-weight:600;margin-bottom:.6rem;">Mercado de alquiler fuerte</div><p style="font-size:.92rem;line-height:1.7;color:#9CA3AF;margin:0;font-weight:300;">Alta demanda de alquiler asegura flujo de caja constante.</p></div>
-        <div class="reveal" style="padding-top:1.2rem;border-top:1px solid rgba(201,168,76,0.2);"><div style="font-family:'Cormorant Garamond',serif;color:#F5F5F0;font-size:1.18rem;font-weight:600;margin-bottom:.6rem;">Acceso internacional</div><p style="font-size:.92rem;line-height:1.7;color:#9CA3AF;margin:0;font-weight:300;">Miami es la puerta de entrada de América Latina a EE.UU.</p></div>
+        <div class="reveal" style="padding-top:1.2rem;border-top:1px solid rgba(201,168,76,0.2);"><div style="font-family:'Cormorant Garamond',serif;color:#F5F5F0;font-size:1.18rem;font-weight:600;margin-bottom:.6rem;">Trato personalizado</div><p style="font-size:.92rem;line-height:1.7;color:#9CA3AF;margin:0;font-weight:300;">Cada cliente recibe atención dedicada y un acompañamiento adaptado a sus necesidades.</p></div>
+        <div class="reveal" style="padding-top:1.2rem;border-top:1px solid rgba(201,168,76,0.2);"><div style="font-family:'Cormorant Garamond',serif;color:#F5F5F0;font-size:1.18rem;font-weight:600;margin-bottom:.6rem;">Experiencia comprobada</div><p style="font-size:.92rem;line-height:1.7;color:#9CA3AF;margin:0;font-weight:300;">Trayectoria en el corretaje de propiedades en Santiago Oriente.</p></div>
+        <div class="reveal" style="padding-top:1.2rem;border-top:1px solid rgba(201,168,76,0.2);"><div style="font-family:'Cormorant Garamond',serif;color:#F5F5F0;font-size:1.18rem;font-weight:600;margin-bottom:.6rem;">Acompañamiento constante</div><p style="font-size:.92rem;line-height:1.7;color:#9CA3AF;margin:0;font-weight:300;">Te asesoramos en cada etapa, desde la primera visita hasta la firma final.</p></div>
+        <div class="reveal" style="padding-top:1.2rem;border-top:1px solid rgba(201,168,76,0.2);"><div style="font-family:'Cormorant Garamond',serif;color:#F5F5F0;font-size:1.18rem;font-weight:600;margin-bottom:.6rem;">Conocimiento del mercado local</div><p style="font-size:.92rem;line-height:1.7;color:#9CA3AF;margin:0;font-weight:300;">Sabemos qué se mueve en Las Condes y comunas cercanas para asesorarte mejor.</p></div>
       </div>
     </div>
   </section>
@@ -284,7 +285,7 @@
 
     <!-- Heading encima del gallery -->
     <div class="reveal" style="text-align:center;padding:0 clamp(1.5rem,6vw,7rem) 3rem;">
-      <h2 style="font-family:'Cormorant Garamond',serif;font-weight:700;font-size:clamp(2rem,4vw,3.5rem);line-height:1.1;letter-spacing:-0.02em;color:#F5F5F0;margin:0;">Tu inversión, paso a paso</h2>
+      <h2 style="font-family:'Cormorant Garamond',serif;font-weight:700;font-size:clamp(2rem,4vw,3.5rem);line-height:1.1;letter-spacing:-0.02em;color:#F5F5F0;margin:0;">Tu propiedad, paso a paso</h2>
     </div>
 
     <!-- GridMotion full-width sticky -->
@@ -358,14 +359,15 @@
     <img loading="lazy" src="assets/hero-exterior.jpg" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.18;z-index:0;">
     <div style="position:absolute;inset:0;z-index:1;background:radial-gradient(ellipse at center,rgba(8,11,18,0.75),#080B12 78%);"></div>
     <div class="reveal" style="position:relative;z-index:2;max-width:680px;margin:0 auto;">
-      <h2 style="font-family:'Cormorant Garamond',serif;font-weight:700;font-size:clamp(2.2rem,5vw,4rem);line-height:1.08;letter-spacing:-0.02em;color:#F5F5F0;margin:0 0 1.4rem;text-wrap:balance;">¿Listo para invertir en Florida?</h2>
-      <p style="font-size:clamp(1.02rem,1.6vw,1.18rem);line-height:1.75;color:#C7CBD3;margin:0 auto 2.8rem;max-width:520px;font-weight:300;">Agenda una llamada gratuita de 45 minutos y analicemos juntos las mejores oportunidades para tu capital.</p>
-      <a class="jpp-pulse" href="https://calendly.com/juanpablorealtor/45min" target="_blank" rel="noopener" style="text-decoration:none;display:inline-flex;align-items:center;gap:.7rem;background:#C9A84C;color:#080B12;font-weight:600;letter-spacing:.08em;text-transform:uppercase;font-size:.92rem;border-radius:8px;padding:1.25rem 2.6rem;box-shadow:0 0 40px rgba(201,168,76,0.3);">Agendar Zoom Gratuito</a>
+      <h2 style="font-family:'Cormorant Garamond',serif;font-weight:700;font-size:clamp(2.2rem,5vw,4rem);line-height:1.08;letter-spacing:-0.02em;color:#F5F5F0;margin:0 0 1.4rem;text-wrap:balance;">¿Listo para dar el siguiente paso con tu propiedad?</h2>
+      <p style="font-size:clamp(1.02rem,1.6vw,1.18rem);line-height:1.75;color:#C7CBD3;margin:0 auto 2.8rem;max-width:520px;font-weight:300;">Escríbenos y conversemos sobre tu propiedad. Te asesoramos sin costo ni compromiso.</p>
+      <a class="jpp-pulse" href="https://wa.me/56991277411" target="_blank" rel="noopener" style="text-decoration:none;display:inline-flex;align-items:center;gap:.7rem;background:#C9A84C;color:#080B12;font-weight:600;letter-spacing:.08em;text-transform:uppercase;font-size:.92rem;border-radius:8px;padding:1.25rem 2.6rem;box-shadow:0 0 40px rgba(201,168,76,0.3);">Escríbenos por WhatsApp</a>
       <div style="display:flex;align-items:center;justify-content:center;gap:1.1rem;margin-top:2.4rem;">
-        <a href="https://wa.me/13137280050" target="_blank" rel="noopener" aria-label="WhatsApp" style="width:46px;height:46px;border-radius:50%;border:1px solid rgba(201,168,76,0.3);display:flex;align-items:center;justify-content:center;color:#E2C97E;transition:background .3s,border-color .3s;" style-hover="background:rgba(201,168,76,0.12);border-color:rgba(201,168,76,0.6);"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.5 15.3L2 22l4.8-1.5A10 10 0 1012 2zm0 18a8 8 0 01-4.1-1.1l-.3-.2-2.8.9.9-2.7-.2-.3A8 8 0 1112 20zm4.5-6c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1l-.7.9c-.1.2-.3.2-.5.1a6.5 6.5 0 01-3.2-2.8c-.2-.3.2-.3.5-1 .1-.1 0-.3 0-.4l-.7-1.7c-.2-.5-.4-.4-.5-.4h-.5c-.2 0-.4.1-.6.3-.7.7-.9 1.7-.5 2.7a9 9 0 003.9 4c1.6.7 2.2.8 3 .7.5-.1 1.4-.6 1.6-1.1.2-.5.2-1 .1-1.1 0-.1-.2-.2-.5-.3z"></path></svg></a>
-        <a href="https://www.instagram.com/juanpablo_realtor/" target="_blank" rel="noopener" aria-label="Instagram" style="width:46px;height:46px;border-radius:50%;border:1px solid rgba(201,168,76,0.3);display:flex;align-items:center;justify-content:center;color:#E2C97E;transition:background .3s,border-color .3s;" style-hover="background:rgba(201,168,76,0.12);border-color:rgba(201,168,76,0.6);"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"></circle></svg></a>
-        <a href="https://www.linkedin.com/in/juanpablopistorio/" target="_blank" rel="noopener" aria-label="LinkedIn" style="width:46px;height:46px;border-radius:50%;border:1px solid rgba(201,168,76,0.3);display:flex;align-items:center;justify-content:center;color:#E2C97E;transition:background .3s,border-color .3s;" style-hover="background:rgba(201,168,76,0.12);border-color:rgba(201,168,76,0.6);"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5A2.5 2.5 0 002.5 6a2.5 2.5 0 005 0 2.5 2.5 0 00-2.52-2.5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-1 1.8-2 3.7-2 4 0 4.7 2.6 4.7 6V21h-4v-5.3c0-1.3 0-2.9-1.8-2.9s-2 1.4-2 2.8V21H9z"></path></svg></a>
+        <a href="https://wa.me/56991277411" target="_blank" rel="noopener" aria-label="WhatsApp" style="width:46px;height:46px;border-radius:50%;border:1px solid rgba(201,168,76,0.3);display:flex;align-items:center;justify-content:center;color:#E2C97E;transition:background .3s,border-color .3s;" style-hover="background:rgba(201,168,76,0.12);border-color:rgba(201,168,76,0.6);"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.5 15.3L2 22l4.8-1.5A10 10 0 1012 2zm0 18a8 8 0 01-4.1-1.1l-.3-.2-2.8.9.9-2.7-.2-.3A8 8 0 1112 20zm4.5-6c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1l-.7.9c-.1.2-.3.2-.5.1a6.5 6.5 0 01-3.2-2.8c-.2-.3.2-.3.5-1 .1-.1 0-.3 0-.4l-.7-1.7c-.2-.5-.4-.4-.5-.4h-.5c-.2 0-.4.1-.6.3-.7.7-.9 1.7-.5 2.7a9 9 0 003.9 4c1.6.7 2.2.8 3 .7.5-.1 1.4-.6 1.6-1.1.2-.5.2-1 .1-1.1 0-.1-.2-.2-.5-.3z"></path></svg></a>
+        <a href="tel:+56991277411" aria-label="Llamar por teléfono" style="width:46px;height:46px;border-radius:50%;border:1px solid rgba(201,168,76,0.3);display:flex;align-items:center;justify-content:center;color:#E2C97E;transition:background .3s,border-color .3s;" style-hover="background:rgba(201,168,76,0.12);border-color:rgba(201,168,76,0.6);"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></a>
+        <a href="mailto:contacto@grupoloft.cl" aria-label="Enviar correo" style="width:46px;height:46px;border-radius:50%;border:1px solid rgba(201,168,76,0.3);display:flex;align-items:center;justify-content:center;color:#E2C97E;transition:background .3s,border-color .3s;" style-hover="background:rgba(201,168,76,0.12);border-color:rgba(201,168,76,0.6);"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m2 7 10 6 10-6"></path></svg></a>
       </div>
+      <p style="margin:1.8rem 0 0;font-size:.8rem;letter-spacing:.04em;color:#6B7280;font-weight:300;">La Capitanía 80, Of. 108, Las Condes · Lunes a Sábado, 9:00–19:00 hrs</p>
     </div>
   </section>
 
