@@ -43,6 +43,8 @@
     .jpp-about{grid-template-columns:1fr!important;}
     .jpp-florida{grid-template-columns:1fr!important;}
     .jpp-navcta{display:none!important;}
+    .jpp-resultados{grid-template-columns:1fr!important;}
+    .jpp-resultados-video{order:-1;}
   }
   @media (max-width:640px){
     .jpp-gallery{grid-template-columns:1fr!important;}
@@ -139,6 +141,50 @@
       </div>
     </div>
   </header>
+
+  <!-- SECCIÓN: RESULTADOS -->
+  <section id="resultados" data-screen-label="Resultados" style="position:relative;padding:clamp(4rem,9vw,7rem) clamp(1.5rem,6vw,7rem);background:#0A0E16;border-top:1px solid rgba(201,168,76,0.1);overflow:hidden;">
+    <div class="jpp-resultados" style="max-width:1280px;margin:0 auto;display:grid;grid-template-columns:1.15fr 0.85fr;gap:clamp(2.5rem,6vw,5rem);align-items:center;">
+
+      <div>
+        <div class="reveal" style="max-width:620px;margin-bottom:3rem;">
+          <h2 style="font-family:'Cormorant Garamond',serif;font-weight:700;font-size:clamp(1.8rem,3.6vw,3rem);line-height:1.15;letter-spacing:-0.02em;color:#F5F5F0;margin:0 0 1.2rem;">Cercanía y experiencia <span style="color:#E2C97E;font-style:italic;font-weight:600;">que generan resultados</span></h2>
+          <p style="font-size:1rem;line-height:1.75;color:#9CA3AF;margin:0;font-weight:300;max-width:520px;">Propietarios e inversionistas confían en nuestro equipo para vender, arrendar y administrar sus propiedades en Santiago, con cercanía y respaldo profesional en cada etapa.</p>
+        </div>
+
+        <div class="stats-bar" style="display:grid;grid-template-columns:repeat(2,1fr);gap:2.2rem 2.5rem;">
+          <div class="stat-block" style="text-align:left;padding:0;">
+            <div class="stat-number" data-target="4" data-suffix="+" style="font-family:'Cormorant Garamond',serif;font-weight:700;font-size:clamp(2.1rem,4vw,2.8rem);color:#E2C97E;margin-bottom:.5rem;">0+</div>
+            <div style="font-size:.7rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:#9CA3AF;">Comunas de Santiago Oriente</div>
+          </div>
+          <div class="stat-block" style="text-align:left;padding:0;">
+            <div class="stat-number" data-target="4" data-suffix="" style="font-family:'Cormorant Garamond',serif;font-weight:700;font-size:clamp(2.1rem,4vw,2.8rem);color:#E2C97E;margin-bottom:.5rem;">0</div>
+            <div style="font-size:.7rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:#9CA3AF;">Servicios Especializados</div>
+          </div>
+          <div class="stat-block" style="text-align:left;padding:0;">
+            <div class="stat-number" data-target="6" data-suffix="" style="font-family:'Cormorant Garamond',serif;font-weight:700;font-size:clamp(2.1rem,4vw,2.8rem);color:#E2C97E;margin-bottom:.5rem;">0</div>
+            <div style="font-size:.7rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:#9CA3AF;">Días de Atención a la Semana</div>
+          </div>
+          <div class="stat-block" style="text-align:left;padding:0;">
+            <div class="stat-number" data-target="10" data-suffix="h" style="font-family:'Cormorant Garamond',serif;font-weight:700;font-size:clamp(2.1rem,4vw,2.8rem);color:#E2C97E;margin-bottom:.5rem;">0h</div>
+            <div style="font-size:.7rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:#9CA3AF;">Horas de Atención Cada Día</div>
+          </div>
+          <div class="stat-block" style="text-align:left;padding:0;">
+            <div class="stat-number" data-target="100" data-suffix="%" style="font-family:'Cormorant Garamond',serif;font-weight:700;font-size:clamp(2.1rem,4vw,2.8rem);color:#E2C97E;margin-bottom:.5rem;">0%</div>
+            <div style="font-size:.7rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:#9CA3AF;">Trato Personalizado</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal jpp-resultados-video" style="position:relative;border-radius:20px;overflow:hidden;border:1px solid rgba(201,168,76,0.25);box-shadow:0 30px 70px rgba(0,0,0,0.45);aspect-ratio:4/5;">
+        <video autoPlay="{{ true }}" muted="{{ true }}" loop="{{ true }}" playsInline="{{ true }}" poster="assets/hero-exterior.jpg" style="width:100%;height:100%;object-fit:cover;display:block;">
+          <source src="uploads/Wan_Video_Generate_Create%20a%20seamless%20cinematic%20one-shot%20transition%20between%20the%20p%20(1).mp4" type="video/mp4">
+        </video>
+        <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(8,11,18,0.4),transparent 45%);pointer-events:none;"></div>
+      </div>
+
+    </div>
+  </section>
 
   <!-- SECCIÓN: SERVICIOS -->
   <section id="servicios" data-screen-label="Servicios" class="services-section servicios-section" style="position:relative;padding:clamp(5rem,10vw,9rem) clamp(1.5rem,6vw,7rem);background:#0A0E16;border-top:1px solid rgba(201,168,76,0.1);overflow:hidden;">
